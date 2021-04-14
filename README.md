@@ -25,4 +25,4 @@ npm run serve
 
 ## Visuals
 
-![screenshot](https://github.com/achongsBiz/readme-files/blob/master/gmap-demo/gmap1-1.PNG)
+![screenshot](https://github.com/achongsBiz/readme-files/blob/master/gmap-demo/gmap1.png)
