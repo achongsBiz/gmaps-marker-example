@@ -1,11 +1,7 @@
 # maps
 
 ## Introduction
-This is a VUE application that consumes the Google Maps API. It allows the user to drop markers across a map in either one of three ways: 
-
-* By right clicking on the map and providing a description for the marker.
-* By having an array pre-populated from an external API.
-* By entering a latitude and longitude into the form.
+This is a VUE application that consumes the Google Maps API. It allows the user to enter several addresses and generate a route based on that input.
 
 
 ## Project setup
