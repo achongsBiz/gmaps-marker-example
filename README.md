@@ -26,6 +26,3 @@ From within the project:
 npm install
 npm run serve
 ```
-
-## Visuals
-
