@@ -3,6 +3,14 @@
 ## Introduction
 This is a VUE application that consumes the Google Maps API. It allows the user to enter several addresses and generate a route based on that input.
 
+![screenshot](https://github.com/achongsBiz/readme-files/blob/master/gmap-demo/gmap1.png)
+
+## API Key Disclaimer
+This project requires a Google Maps API key. It is your responsibility to secure and restrict access to the key you generate. 
+
+Here is the official documentation on best practices with regards to this matter:
+https://developers.google.com/maps/api-security-best-practices
+
 
 ## Project setup
 
@@ -21,4 +29,3 @@ npm run serve
 
 ## Visuals
 
-![screenshot](https://github.com/achongsBiz/readme-files/blob/master/gmap-demo/gmap1.png)
