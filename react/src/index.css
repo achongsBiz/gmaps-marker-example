@@ -1,0 +1,27 @@
+#grid-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-areas:
+    "map inputs"
+    "directions directions";
+}
+
+#map {
+  grid-area: map;
+  width: 650px;
+  height: 400px;
+  padding: 25px;
+  margin: 25px;
+}
+
+#input-area {
+  grid-area: inputs;
+}
+
+#panel {
+  grid-area: directions;
+}
+
+.current-inputs {
+  width: 350px;
+}

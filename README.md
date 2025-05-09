@@ -1,7 +1,9 @@
 # maps
 
 ## Introduction
-This is a VUE application that consumes the Google Maps API. It allows the user to enter several addresses and generate a route based on that input.
+This project contains two examples on how to use some features of the Google Maps API. One is in React and the other is in Vue.js. 
+
+It allows the user to enter several addresses and generate a route based on that input.
 
 ![screenshot](https://github.com/achongsBiz/readme-files/blob/master/gmap-demo/gmap1.png)
 
