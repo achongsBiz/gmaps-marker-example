@@ -16,15 +16,18 @@ https://developers.google.com/maps/api-security-best-practices
 
 ## Project setup
 
-Obtain a Google Maps API key from google and substitute it into the script tag within public/index.html:
+Obtain a Google Maps API key from google and substitute it into the script tag into index.html:
 
 ```
  <script src='https://maps.googleapis.com/maps/api/js?key=GET-YOUR-OWN-KEY'></script>
  ```
 
+ On VUE projects index.html is found under public/index.html. In React, the index.html file is located in the root of the project.
 
-From within the project:
+## Running the project
+
+From within the React or Vue project folders:
 ```
 npm install
-npm run serve
+npm run serve (or dev)
 ```
