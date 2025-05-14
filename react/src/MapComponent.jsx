@@ -1,11 +1,10 @@
 import React, { useEffect, useRef, useState } from 'react';
+import styles from './MapComponent.module.css';
 
 const MapComponent = () => {
   const mapRef = useRef(null);
   const panelRef = useRef(null);
   const [map, setMap] = useState(null);
-  const [directionsService, setDirectionsService] = useState(null);
-  const [directionsRenderer, setDirectionsRenderer] = useState(null);
   const [currentInput, setCurrentInput] = useState('');
 
   // Center of map, adjust as needed
@@ -129,10 +128,10 @@ const MapComponent = () => {
 
 
   return (
-    <div id="grid-container">
-      <div id="map" ref={mapRef}></div>
+    <div className={styles.gridcontainer}>
+      <div className={styles.map} ref={mapRef}></div>
 
-      <div id="input-area">
+      <div className={styles.inputarea}>
         <p>
           For best results the address should have this format:{" "}
           <em>2934 Russell St, Detroit, MI, 48207</em>
@@ -151,7 +150,7 @@ const MapComponent = () => {
         {locations.map((location, index) => (
           <div key={index} id="currentList">
             <input
-              className="current-inputs"
+              className= {styles.currentinputs}
               value={location}
               onChange= {
                 (e) => {
@@ -166,7 +165,7 @@ const MapComponent = () => {
         ))}
       </div>
 
-      <div id="panel" ref={panelRef}></div>
+      <div className={styles.panel} ref={panelRef}></div>
     </div>
   );
 };
